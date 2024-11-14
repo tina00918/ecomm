@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header Styles */
+.top-bar {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.header-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-main h1 {
+    margin: 0;
+}
+
+#search-bar {
+    width: 40%;
+    padding: 7px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav li {
+    position: relative;
+}
+
+/* Banner Styles */
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+/* Categories Styles */
+.categories {
+    padding: 40px 50px;
+    text-align: center;
+}
+
+.category-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.category-item {
+    width: 200px;
+}
+
+.category-item img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.category-item h3 {
+    margin-top: 10px;
+}
+
+/* Products Styles */
+.products {
+    padding: 40px 50px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.product-item {
+    width: 200px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+}
+
+.product-item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-item p {
+    color: #e6007e;
+    font-weight: bold;
+}
+
+.product-item button {
+    background-color: #e6007e;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product-item button:hover {
+    background-color: #bf0066;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 50px;
+    text-align: center;
+}
