@@ -18,7 +18,7 @@ ul {
 
 /* Header Styles */
 .top-bar {
-    background-color: #f2f2f2;
+    background-color: #ffecf2;
     text-align: center;
     padding: 5px 0;
 }
@@ -28,7 +28,8 @@ ul {
     align-items: center;
     justify-content: space-between;
     padding: 15px 50px;
-    background-color: #fff;
+    background-color: #b33158
+    ;
     border-bottom: 1px solid #ddd;
 }
 
@@ -64,9 +65,9 @@ nav li {
 
 .category-list {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     gap: 30px;
-    margin-top: 20px;
+    justify-content: center;
 }
 
 .category-item {
@@ -137,4 +138,15 @@ footer {
     color: #fff;
     padding: 20px 50px;
     text-align: center;
+}
+.carousel-item img {
+    height: 400px; /* Set to the desired height */
+    width: 100%;
+    object-fit: cover; /* Ensures images fill the space without stretching */
+}
+.carousel-item img {
+    height: 400px; /* Set to desired height */
+    width: 100%;
+    object-fit: contain; /* Ensures full image fits within container */
+    background-color: #ffecf2; /* Optional: background color to fill empty space */
 }

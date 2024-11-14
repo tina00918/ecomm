@@ -1,11 +1,17 @@
 // Sample product data
 const products = [
-    { id: 1, name: 'Hydrating Lip Gloss', price: 14, image: 'images/lip-gloss.jpg' },
-    { id: 2, name: 'Volumizing Mascara', price: 18, image: 'images/mascara.jpg' },
-    { id: 3, name: 'Illuminating Foundation', price: 25, image: 'images/foundation.jpg' },
-    { id: 4, name: 'Blush Palette', price: 20, image: 'images/blush-palette.jpg' },
-    { id: 5, name: 'Nude Eyeshadow', price: 22, image: 'images/eyeshadow.jpg' },
-    { id: 6, name: 'Moisturizing Cream', price: 30, image: 'images/moisturizer.jpg' },
+    { id: 1, name: 'Lips', price: 14, image: 'images/lip-gloss.jpg' },
+    { id: 2, name: 'Face', price: 18, image: 'images/mascara.jpg' },
+    { id: 3, name: 'Eyes', price: 25, image: 'images/foundation.jpg' },
+    { id: 4, name: 'Nails', price: 20, image: 'images/blush-palette.jpg' },
+    { id: 5, name: 'Skin Care', price: 22, image: 'images/eyeshadow.jpg' },
+];
+const  categories = [
+    { id: 1, name: 'Lips', price: 14, image: 'images/lip-gloss.jpg' },
+    { id: 2, name: 'Face', price: 18, image: 'images/mascara.jpg' },
+    { id: 3, name: 'Eyes', price: 25, image: 'images/foundation.jpg' },
+    { id: 4, name: 'Nails', price: 20, image: 'images/blush-palette.jpg' },
+    { id: 5, name: 'Skin Care', price: 22, image: 'images/eyeshadow.jpg' },
 ];
 
 let cart = [];
