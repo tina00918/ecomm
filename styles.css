@@ -186,3 +186,39 @@ footer {
     object-fit: contain; /* Ensures full image fits within container */
     background-color: #ffecf2; /* Optional: background color to fill empty space */
 }
+/* Deal Card Styles */
+.deal-card {
+    background-color: #ffecf2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    transition: transform 0.3s ease;
+    height: 100%; /* Ensure cards have the same height */
+}
+
+.deal-card img {
+    border-radius: 5px;
+    height: 150px; /* Adjust as needed */
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.deal-card h5 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.deal-card p {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+}
+
+/* Ensure alignment in the center */
+.row.justify-content-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items horizontally */
+    align-items: stretch; /* Ensure all cards are the same height */
+}
