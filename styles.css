@@ -135,10 +135,14 @@ nav li {
 }
 
 .product-item img {
-    width: 50%;
-    height: auto;
-    object-fit: cover;
+    width: 150px; /* Set a fixed width */
+    height: 150px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    border-radius: 5px; /* Optional: Add rounded corners for a polished look */
+    display: block; /* Ensures consistent spacing in the layout */
+    margin: 0 auto; /* Centers the image horizontally within the container */
 }
+
 
 .product-item h3 {
     font-size: 18px;
